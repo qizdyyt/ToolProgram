@@ -15,6 +15,8 @@
 		569C06381F44274C00185931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569C06361F44274C00185931 /* LaunchScreen.storyboard */; };
 		569C06431F44274C00185931 /* Tool1_GetDeviceInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569C06421F44274C00185931 /* Tool1_GetDeviceInfoTests.m */; };
 		569C064E1F44274C00185931 /* Tool1_GetDeviceInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569C064D1F44274C00185931 /* Tool1_GetDeviceInfoUITests.m */; };
+		56BC119A1F4BFD9500955A34 /* DeviceInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BC11971F4BFD9500955A34 /* DeviceInfoTool.m */; };
+		56BC119B1F4BFD9500955A34 /* NSString+Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BC11991F4BFD9500955A34 /* NSString+Handle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		569C06491F44274C00185931 /* Tool1-GetDeviceInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tool1-GetDeviceInfoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		569C064D1F44274C00185931 /* Tool1_GetDeviceInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool1_GetDeviceInfoUITests.m; sourceTree = "<group>"; };
 		569C064F1F44274C00185931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BC11961F4BFD9500955A34 /* DeviceInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoTool.h; sourceTree = "<group>"; };
+		56BC11971F4BFD9500955A34 /* DeviceInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoTool.m; sourceTree = "<group>"; };
+		56BC11981F4BFD9500955A34 /* NSString+Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Handle.h"; sourceTree = "<group>"; };
+		56BC11991F4BFD9500955A34 /* NSString+Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Handle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		569C06271F44274C00185931 /* Tool1-GetDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
+				56BC119C1F4BFD9B00955A34 /* Tools */,
 				569C062B1F44274C00185931 /* AppDelegate.h */,
 				569C062C1F44274C00185931 /* AppDelegate.m */,
 				569C062E1F44274C00185931 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				569C064F1F44274C00185931 /* Info.plist */,
 			);
 			path = "Tool1-GetDeviceInfoUITests";
+			sourceTree = "<group>";
+		};
+		56BC119C1F4BFD9B00955A34 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				56BC11961F4BFD9500955A34 /* DeviceInfoTool.h */,
+				56BC11971F4BFD9500955A34 /* DeviceInfoTool.m */,
+				56BC11981F4BFD9500955A34 /* NSString+Handle.h */,
+				56BC11991F4BFD9500955A34 /* NSString+Handle.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				569C06301F44274C00185931 /* ViewController.m in Sources */,
+				56BC119B1F4BFD9500955A34 /* NSString+Handle.m in Sources */,
+				56BC119A1F4BFD9500955A34 /* DeviceInfoTool.m in Sources */,
 				569C062D1F44274C00185931 /* AppDelegate.m in Sources */,
 				569C062A1F44274C00185931 /* main.m in Sources */,
 			);
@@ -518,6 +538,7 @@
 				569C06541F44274C00185931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		569C06551F44274C00185931 /* Build configuration list for PBXNativeTarget "Tool1-GetDeviceInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +547,7 @@
 				569C06571F44274C00185931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		569C06581F44274C00185931 /* Build configuration list for PBXNativeTarget "Tool1-GetDeviceInfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +556,7 @@
 				569C065A1F44274C00185931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
