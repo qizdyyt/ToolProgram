@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		15D921FA40E10DA90D9B50A2 /* Pods_MapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C39CCDFA4238267931F1409 /* Pods_MapDemo.framework */; };
 		5687AA951F7B412B006498C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AA941F7B412B006498C7 /* AppDelegate.swift */; };
-		5687AA971F7B412B006498C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AA961F7B412B006498C7 /* ViewController.swift */; };
 		5687AA9A1F7B412B006498C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5687AA981F7B412B006498C7 /* Main.storyboard */; };
 		5687AA9C1F7B412B006498C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5687AA9B1F7B412B006498C7 /* Assets.xcassets */; };
 		5687AA9F1F7B412B006498C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5687AA9D1F7B412B006498C7 /* LaunchScreen.storyboard */; };
 		5687AAAA1F7B412C006498C7 /* MapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AAA91F7B412C006498C7 /* MapDemoTests.swift */; };
 		5687AAB51F7B412C006498C7 /* MapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AAB41F7B412C006498C7 /* MapDemoUITests.swift */; };
+		5687AAC81F7B4FE9006498C7 /* PlaceAroundTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AAC61F7B4FE9006498C7 /* PlaceAroundTableView.swift */; };
+		5687AAC91F7B4FE9006498C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AAC71F7B4FE9006498C7 /* ViewController.swift */; };
+		5687AACB1F7B5216006498C7 /* ZDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687AACA1F7B5216006498C7 /* ZDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		3157DC6762D35A3C0E8B9DD6 /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5687AA911F7B412B006498C7 /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5687AA941F7B412B006498C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5687AA961F7B412B006498C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5687AA991F7B412B006498C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5687AA9B1F7B412B006498C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5687AA9E1F7B412B006498C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,10 @@
 		5687AAB01F7B412C006498C7 /* MapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5687AAB41F7B412C006498C7 /* MapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemoUITests.swift; sourceTree = "<group>"; };
 		5687AAB61F7B412C006498C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5687AAC21F7B4A35006498C7 /* MapDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5687AAC61F7B4FE9006498C7 /* PlaceAroundTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAroundTableView.swift; sourceTree = "<group>"; };
+		5687AAC71F7B4FE9006498C7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5687AACA1F7B5216006498C7 /* ZDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDViewController.swift; sourceTree = "<group>"; };
 		83614E893E69E649C1C496AB /* Pods-MapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDemo/Pods-MapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C39CCDFA4238267931F1409 /* Pods_MapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,11 +127,14 @@
 			isa = PBXGroup;
 			children = (
 				5687AA941F7B412B006498C7 /* AppDelegate.swift */,
-				5687AA961F7B412B006498C7 /* ViewController.swift */,
+				5687AAC61F7B4FE9006498C7 /* PlaceAroundTableView.swift */,
+				5687AAC71F7B4FE9006498C7 /* ViewController.swift */,
 				5687AA981F7B412B006498C7 /* Main.storyboard */,
 				5687AA9B1F7B412B006498C7 /* Assets.xcassets */,
 				5687AA9D1F7B412B006498C7 /* LaunchScreen.storyboard */,
 				5687AAA01F7B412B006498C7 /* Info.plist */,
+				5687AAC21F7B4A35006498C7 /* MapDemo-Bridging-Header.h */,
+				5687AACA1F7B5216006498C7 /* ZDViewController.swift */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 					5687AA901F7B412B006498C7 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = B7QX9LL49R;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					5687AAA41F7B412C006498C7 = {
@@ -337,7 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5687AA971F7B412B006498C7 /* ViewController.swift in Sources */,
+				5687AAC91F7B4FE9006498C7 /* ViewController.swift in Sources */,
+				5687AAC81F7B4FE9006498C7 /* PlaceAroundTableView.swift in Sources */,
+				5687AACB1F7B5216006498C7 /* ZDViewController.swift in Sources */,
 				5687AA951F7B412B006498C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,11 +504,14 @@
 			baseConfigurationReference = 83614E893E69E649C1C496AB /* Pods-MapDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B7QX9LL49R;
 				INFOPLIST_FILE = MapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zidong.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapDemo/MapDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -507,11 +521,13 @@
 			baseConfigurationReference = 3157DC6762D35A3C0E8B9DD6 /* Pods-MapDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B7QX9LL49R;
 				INFOPLIST_FILE = MapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zidong.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapDemo/MapDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
