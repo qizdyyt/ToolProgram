@@ -129,12 +129,12 @@
 				5687AA941F7B412B006498C7 /* AppDelegate.swift */,
 				5687AAC61F7B4FE9006498C7 /* PlaceAroundTableView.swift */,
 				5687AAC71F7B4FE9006498C7 /* ViewController.swift */,
+				5687AACA1F7B5216006498C7 /* ZDViewController.swift */,
 				5687AA981F7B412B006498C7 /* Main.storyboard */,
 				5687AA9B1F7B412B006498C7 /* Assets.xcassets */,
 				5687AA9D1F7B412B006498C7 /* LaunchScreen.storyboard */,
 				5687AAA01F7B412B006498C7 /* Info.plist */,
 				5687AAC21F7B4A35006498C7 /* MapDemo-Bridging-Header.h */,
-				5687AACA1F7B5216006498C7 /* ZDViewController.swift */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";

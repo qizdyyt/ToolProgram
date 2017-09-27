@@ -32,11 +32,11 @@ class ViewController: UIViewController, MAMapViewDelegate, PlaceAroundTableViewD
         
         self.view.backgroundColor = UIColor.gray
         
-        AMapServices.shared().apiKey = "fc0d1c2dac98ad939b343596e3acfcf9"
+        
 
         initTableView()
         initSearch()
-        initMapView()
+        initMapView()//asdoioif
     }
     
     override func viewDidAppear(_ animated: Bool) {
